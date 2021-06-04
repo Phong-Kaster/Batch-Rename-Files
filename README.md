@@ -46,4 +46,8 @@ After :
 
 I know my tool is so simple but I will try my best to improve it in the future. People said "Rome was not built in a day" , so that I hope you enjoy my work 😋😋😋
 
-Thank for watching !! 
+I don't know you and you don't know me. Probably we are not even living in the same country. We look different. We speak different languages. Maybe we are from entirely different generations. We are just complete strangers. 
+
+But there is something that connects us. We both have great taste in getting programming 
+
+Thank you for being here. God bless you, whoever you are
