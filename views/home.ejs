@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+
+<body>
+  <% if ( messenger ){ %>
+    <script>alert("<%= messenger  %>")</script>
+  <% } %>
+    <div class="jumbotron text-center">
+        <h1 class="display-3">Rename All Files In Folder</h1>
+        <hr class="my-2">
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="" role="button">Wanna read more ? Click here</a>
+        </p>
+    </div>
+    <form action="/home" method="POST">
+        <div class="form-group">
+            <label for="folderPath">Your Folder Path</label>
+            <input type="text"
+              class="form-control" name="folderPath" id="folderPath" aria-describedby="helpId" placeholder="Enter your folder path">
+            <small id="helpId" class="form-text text-muted">Find your folder and insert the folder path</small><br/>
+            <small id="helpId" class="form-text text-muted">For example C:\Users\Dell\Pictures is valid</small><br/>
+            <small id="helpId" class="form-text text-muted">Notice C:\users\dell\pictures is valid</small><br/>
+            <small id="helpId" class="form-text text-muted">Notice C:\USER\DELL\PICTURES is not valid</small><br/>
+
+          </div>
+          <br/>
+          <div class="form-group">
+            <label for="fileName">Your File Name</label>
+            <input type="text"
+              class="form-control" name="fileName" id="fileName" aria-describedby="helpId" placeholder="Enter your format name">
+            <small id="helpId" class="form-text text-muted">Your files will be renamed by your format.</small><br/>
+            <small id="helpId" class="form-text text-muted">For example,"wallpaper" is name you want.</small><br/>
+            <small id="helpId" class="form-text text-muted">All your file will be : wallpaper(0) - wallpaper(1) - wallpaper(2) - ...</small>
+          </div>
+          <br/>
+          <div class="form-group">
+            <label for="fileExtension">Your file extension</label>
+            <input type="text"
+              class="form-control" name="fileExtension" id="fileExtension" aria-describedby="helpId" placeholder="Enter file extension">
+            <small id="helpId" class="form-text text-muted">All file have the same extension will be renamed </small><br/>
+            <small id="helpId" class="form-text text-muted">Enter one of the extensions below : </small><br/>
+            <small id="helpId" class="form-text text-muted">1.image</small><br/>
+            <small id="helpId" class="form-text text-muted">2.video</small><br/>
+            <small id="helpId" class="form-text text-muted">3.pdf</small><br/>
+            <small id="helpId" class="form-text text-muted">4.txt</small><br/>
+            <small id="helpId" class="form-text text-muted">5.docx</small><br/>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
+</body>
+
+
+</html>
