@@ -1,3 +1,4 @@
+
 # Batch-Rename-Files
 A basic tool helps us to rename all files in the format you want
 
@@ -30,3 +31,19 @@ Enter the format file you wanna rename .Now , the tool supports 5 type of file i
 
 5.DOCX
 
+![chrome_dFBDKHx95F](https://user-images.githubusercontent.com/58034430/120747191-d05d3600-c52a-11eb-8ec6-d863872f617f.png)
+
+And now , look back for the folder
+
+Before : 
+
+![explorer_fzP6jCWXSr](https://user-images.githubusercontent.com/58034430/120747547-5f6a4e00-c52b-11eb-8803-cd3f3201c8f5.png)
+
+After :
+
+![explorer_knlK47sV7F](https://user-images.githubusercontent.com/58034430/120747566-698c4c80-c52b-11eb-993d-11f9697678ba.png)
+
+
+I know my tool is so simple but I will try my best to improve it in the future. People said "Rome was not built in a day" , so that I hope you enjoy my work 😋😋😋
+
+Thank for watching !! 
